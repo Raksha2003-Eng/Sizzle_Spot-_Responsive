@@ -1,0 +1,478 @@
+body{
+    margin: 0%;
+    font-family: poppins;
+}
+
+#phead{
+    background: #FCE4EC;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    color: black;
+    font-size: 25px;
+}
+
+.menus{
+    display: flex;
+}
+
+.active{
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+.menu{
+    color: #f04880;
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menuname{
+    margin: 15px;
+    text-decoration: none;
+    color: #f04880;
+}
+
+.menuname:hover{
+    text-decoration: underline;
+    color: black;
+    transition-duration: 0.5s;
+    transform: translateY(-10px);
+}
+
+.btn{
+    height: 30px;
+    width: 120px;
+    color: white;
+    background: #EC407A;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #EC407A;
+    border: 1.5px solid #EC407A;
+}
+
+.remove{
+    display: none;
+}
+.content{
+    overflow: hidden;
+    background: #f48fb19e;
+    height: 670px;
+}
+
+.ct2{
+    font-size: 45px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.imgs{
+    height: 520px;
+    width: auto;
+    border-radius: 50%;
+    animation: upDown 3s ease-in-out infinite;
+    position: absolute;
+    right: 130px;
+    top: 190px;
+}
+
+.ct3{
+    width: 40%;
+    line-height: 25px;
+    margin-top: 120px;
+    margin-left: 10%;
+    font-size: 16px;
+    text-align: justify;   
+}
+
+.common{
+    text-decoration: none;
+    margin: 12px;
+    border-radius: 0px 20px 0px 20px;
+    padding: 9px;
+    color: white;
+    background-color:#EC407A ;
+    display: inline-block;
+    text-align: end;
+    transition-duration: 1s;
+}
+
+.common:hover{
+    border: 2px solid #EC407A;
+    background-color: white;
+    color:  #EC407A ;
+
+}
+.cc{
+    justify-content: center;
+    display: flex;
+    width: 65%;
+}
+
+#about{
+    overflow: hidden;
+    background-color: #f48fb19e;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 260px;
+}
+
+.sbox{
+    background-color: #FCE4EC;
+    height: 150px;
+    width: 240px;
+    margin-top: 30px;
+    transition: 1s;
+    cursor: pointer;
+    text-align: center;
+    border: 5px solid white;
+}
+
+.sbox:hover{
+    background-color: white;
+    color:  #EC407A ;
+    border: 5px solid  #EC407A ;
+    box-shadow: 10px 10px 5px  #EC407A ;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.sbox1{
+    display: flex;
+    flex-direction: row;
+}
+
+.rev1{
+    display: flex;
+    background-color: #FCE4EC;
+}
+
+.rimg{
+    height: 550px;
+    width: 700px;
+    padding: 30px;
+}
+
+.rimgs{
+    height: 290px;
+    width: 370px;
+    margin-left: 150px;
+}
+
+.rev11{
+    flex: 1;
+}
+
+.rev22{
+    flex: 1;
+    padding: 20px;
+}
+
+#map{
+    padding: 5%;
+    background-color: #FCE4EC;
+}
+
+#booking{
+    overflow: hidden;
+    background:  #f48fb19e;
+    height: 565px;
+}
+
+.apmain{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.apph{
+    font-size: 50px;
+    color: black;
+}
+
+.appp{
+    font-size: 20px;
+}
+
+.cform{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.srow{
+    margin-top: 10px;
+}
+
+.trow{
+    margin-top: 10px;
+}
+
+.ffrow{
+    margin-top: 15px;
+}
+
+.cfield{
+    height: 35px;
+    width: 390px;
+    margin: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #EC407A;
+    background-color: snow;
+    cursor: pointer;
+}
+
+.ctext{
+    margin-left: 25px;
+    height: 100px;
+    width: 1248px;
+    border-radius: 10px;
+    padding: 7px;
+    border: 2px solid #EC407A;
+    background-color: snow;
+    cursor: pointer;
+
+}
+
+.cbtn{
+    margin-left: 540px;
+    width: 170px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid #000000;
+    background-color:  #FCE4EC;
+    color: 000000;
+    cursor: pointer;
+
+}
+
+.cbtn:hover{
+    background-color: snow;
+    color:  #EC407A ;
+    border: 2px solid  #EC407A ;
+}
+
+#copyrights{
+    background-color: #FCE4EC ;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+
+/* @media screen and (min-width:480px) and (max-width:600px) {
+
+    .logo{
+        color: black;
+        font-size: 25px;
+    }
+    .menus{
+        display: none;
+    }
+    .imgs {
+        height: 350px;
+        right: 76px;
+        top: 305px;
+    }
+    .ct3{
+        display: none;
+    }
+    .common {
+        position: relative;
+        top: 300px;
+        left: 85px;
+    }
+    .sbox{
+       width: 330px;
+       border: 5px solid snow;
+    }
+    .sbox1 {
+        display: flex;
+        flex-direction: column !important;
+        margin: 0%;
+        align-items: center;
+    }
+    #about{
+        height: 1190px;
+    }
+    .s11{
+        order:3;
+    }
+    .s12{
+        order:4;
+    }
+    .s13{
+        order:5;
+    }
+    .s21{
+        order:2;
+    }
+    .s22{
+        order:6;
+    }
+    .s23{
+        order:1;
+    }
+    .remove{
+        display: block;
+    }
+    .rimg {
+        height: 430px;
+        width: 430px;
+    }
+    .rimgs{
+        margin-left: 40px;
+    }
+    .rev1{
+        flex-direction: column;
+    }
+    .rev11{
+        order:1
+    }
+    .rev22{
+        order:2
+    }
+    #booking{
+        height: 750px;
+    }
+    .cform{
+        margin-left: 0;
+    }
+    .cfield{
+        margin: 9px;
+        margin-left: 50px;
+        padding: 8px;
+    }
+    .ctext {
+        height: 70px;
+        width: 392px;
+        margin-left: 50px;
+    }
+    .cbtn {
+        margin-left: 170px;
+    }
+    
+} */
+
+@media screen and (min-width:420px) and (max-width:600px) {
+
+    .logo{
+        color: black;
+        font-size: 25px;
+    }
+    .menus{
+        display: none;
+    }
+    .imgs {
+        height: 350px;
+        right: 32px;
+        top: 305px;
+    }
+    .ct3{
+        display: none;
+    }
+    .common {
+        position: relative;
+        top: 322px;
+        left: 90px;
+        margin: 2px;
+        padding: 11px;
+    }
+    .sbox{
+       width: 330px;
+       border: 5px solid snow;
+    }
+    .sbox1 {
+        display: flex;
+        flex-direction: column !important;
+        margin: 0%;
+        align-items: center;
+    }
+    #about{
+        height: 1190px;
+    }
+    .s11{
+        order:3;
+    }
+    .s12{
+        order:4;
+    }
+    .s13{
+        order:5;
+    }
+    .s21{
+        order:2;
+    }
+    .s22{
+        order:6;
+    }
+    .s23{
+        order:1;
+    }
+    .remove{
+        display: block;
+    }
+    .rimg {
+        height: 400px;
+        width: 400px;
+    }
+    .rimgs{
+        height: 280px;
+        width: 340px;
+        margin-left: 40px;
+    }
+    .rev1{
+        flex-direction: column;
+    }
+    .rev11{
+        order:1
+    }
+    .rev22{
+        order:2
+    }
+    #booking{
+        height: 750px;
+    }
+    .cform{
+        margin-left: 0;
+    }
+    .cfield{
+        margin: 9px;
+        margin-left: 30px;
+        padding: 8px;
+    }
+    .ctext {
+        height: 70px;
+        width: 392px;
+        margin-left: 30px;
+    }
+    .cbtn {
+        margin-left: 140px;
+    }
+    
+}
